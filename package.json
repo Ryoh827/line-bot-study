@@ -1,0 +1,20 @@
+{
+  "name": "line-bot-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ryoh827",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "dotenv": "^8.2.0",
+    "linebot": "^1.6.1"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "watch": "babel src --watch --out-dir dist",
+    "start": "node ./dist/index.js"
+  }
+}
